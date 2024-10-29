@@ -1,0 +1,23 @@
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
+public class Solution {
+    public static void main(String[] args) throws IOException {
+        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+
+        // Read the integer
+        int integerInput = Integer.parseInt(reader.readLine().trim());
+
+        // Read the double
+        double doubleInput = Double.parseDouble(reader.readLine().trim());
+
+        // Read the String
+        String stringInput = reader.readLine();
+
+        // Print the outputs as per the required format
+        System.out.println("String: " + stringInput);
+        System.out.println("Double: " + doubleInput);
+        System.out.println("Int: " + integerInput);
+    }
+}
